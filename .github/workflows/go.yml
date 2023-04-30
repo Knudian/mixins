@@ -31,8 +31,8 @@ jobs:
         go test -v ./... -covermode=count -coverprofile=cover.out
         go tool cover -func=cover.out -o coverage.out
     # Source: https://github.com/tj-actions/coverage-badge-go
-    - name: Go coverage badge
-      uses: tj-actions/coverage-badge-go@2
+    - name: Go Coverage Badge
+      uses: tj-actions/coverage-badge-go@v2.2
       with:
         filename: coverage.out
     - name: Verify Changed files
