@@ -1,3 +1,5 @@
+![Github Actions](https://github.com/Knudian/mixins/actions/workflow/go.yaml/badge.svg)
+
 # mixins
 
 This golang package allow users to compose configuration file, that may rely on dynamically or user defined configuration.
