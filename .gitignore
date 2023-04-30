@@ -1,5 +1,6 @@
 ### > Dev env ###
 .idea
+vendor
 ### < Dev env ###
 
 ### > testing ###
